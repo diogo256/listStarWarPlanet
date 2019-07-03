@@ -1,0 +1,122 @@
+.row{
+    float: left;
+    width: 33%;
+}
+.row .col.m8 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.m6 {
+    width: 90%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    border: 1px solid #546e7a;
+    color: #546e7a;
+    text-align: left;
+}
+
+.card .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+    height: 250px;
+}
+
+.card-content span{
+    display: block;
+    margin-top: 5px;
+}
+
+.card .card-content ul{
+    padding: 0;
+    margin: 0 0 0 30px;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.blue-grey.darken-1 {
+    background-color: #546e7a;
+}
+
+.card .card-content .card-title {
+    display: block;
+    line-height: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.card .card-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card .card-content p {
+    margin: 0;
+}
+
+.card-action{
+    clear: both;
+}
+
+.card-action button,
+.card-action button:focus {
+  background-color: #f4f4f6;
+  color: #0b67be;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 2px;
+  border: 1px solid #d2d4da;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  padding: 18px 36px;
+  outline: 0;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .2);
+  transition: all ease-in-out .15s, all ease-in-out .15s;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.card-action button.blue, .card-action button.blue:focus {
+    background-color: #0b67be;
+    color: #fff;
+    border-color: #2365a7;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .2);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .2);
+    line-height: 1;
+}
+
+.card-action button.cinza, .card-action button.cinza:focus {
+    background-color: #f4f4f6;
+    color: #00539f;
+    border-color: #d2d4da;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .2);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .2);
+    line-height: 1;
+}
+
+.card-action button.cinza:hover {
+    background-color: #ffffff;
+}
+
+.card-action button.blue:hover {
+    background-color: #0e81ed;
+}
